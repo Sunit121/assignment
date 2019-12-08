@@ -1,0 +1,179 @@
+<html>
+<head>
+    <title>
+        Test Assignment
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style1.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href="css/fontawesome-all.css" rel="stylesheet">
+     <script
+     src="https://code.jquery.com/jquery-3.4.1.js"
+     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+     crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row abc">
+            <div class="col-md-8" style="margin-top: 10px;">
+                <div id="dataToSubmit"></div>
+                <hr>
+            </div>
+            <div class="col-md-4">
+            <button class="button">Submit</button>
+            </div>  
+        </div>
+    </div>
+<div class="service" id="service">
+<p class="p1">Please select your type of Service Request</p>
+
+<div class="row">
+<div class="col-md-2" style="margin-left:9%;">
+       
+    <div class="furniture">
+            <input type="checkbox" id="furnitures" class="checked" onChange="myFunction(this,'one')" data-furniture="Furniture Repair">
+            <label for="checked"></label>Furniture Repair</div>
+
+</div>
+<div class="col-md-2">
+        <div class="furniture">
+                <input type="checkbox" class="checked" onChange="myFunction(this,'one')" data-furniture="Plumbing Issue">
+                <label for="checked"></label>Plumbing Issue</div>
+</div>   
+<div class="col-md-2">
+        <div class="furniture">
+                <input type="checkbox"  class="checked" onChange="myFunction(this,'one')" data-furniture="Electrical Issue">
+                <label for="checked"></label>Electrical Issue</div>
+</div> 
+<div class="col-md-2">
+        <div class="furniture">
+                <input type="checkbox"  class="checked" onChange="myFunction(this,'one')" data-furniture="Internet Issue">
+                <label for="checked"></label>Internet Issue</div>
+</div> 
+<div class="col-md-2">
+        <div class="furniture">
+                <input type="checkbox"  class="checked" onChange="myFunction(this,'one')" data-furniture="DTH / Cable Issue">
+                <label for="checked"></label>DTH / Cable Issue</div>
+</div> 
+</div>
+<div class="row" style="margin-top: 30px; padding-left: 15% !important;">
+<div class="col-md-3">
+        <div class="furniture">
+                <input type="checkbox"  class="checked" onChange="myFunction(this,'one')" data-furniture="Cooking Gas Issue">
+                <label for="checked"></label>Cooking Gas Issue</div>
+</div> 
+<div class="col-md-2">
+        <div class="furniture">
+                <input type="checkbox"  class="checked" onChange="myFunction(this,'one')" data-furniture="Water Issue">
+                <label for="checked"></label>Water Issue</div>
+</div> 
+<div class="col-md-2">
+        <div class="furniture">
+                <input type="checkbox"  class="checked" onChange="myFunction(this,'one')" data-furniture="House Keys">
+                <label for="checked"></label>House Keys</div>
+</div> 
+<div class="col-md-3">
+        <div class="furniture">
+                <input type="checkbox"  class="checked" onChange="myFunction(this,'one')" data-furniture="Electronic Appliance Service">
+                <label for="checked"></label>Electronic Appliance Service</div>
+</div> 
+</div>
+</div>      
+
+
+
+
+
+
+<div class="service" id="secondservice" style="display: none;">
+        <p class="p1">Please select your type of Issue</p>
+        <div class="row">
+        <div class="col-md-3">
+                <div class="furniture1" style="width:80%; margin-left:20px;">
+                        <input type="checkbox" class="checked bed" onChange="myFunction(this, 'two')" data-furniture="Issue with Bed">
+                        <label for="checked"></label>Issue with Bed</div>
+        </div> 
+        <div class="col-md-2">
+                <div class="furniture1">
+                        <input type="checkbox" class="checked Wardrobe" onChange="myFunction(this, 'two')" data-furniture="Issue with Wardrobe">
+                        <label for="checked"></label>Issue with Wardrobe</div>
+        </div> 
+        <div class="col-md-2">
+                <div class="furniture1">
+                        <input type="checkbox"  class="checked Mattress" onChange="myFunction(this, 'two')" data-furniture="Issue with Mattress">
+                        <label for="checked"></label>Issue with Mattress</div>
+        </div> 
+        <div class="col-md-2">
+                <div class="furniture1">
+                        <input type="checkbox"  class="checked table" onChange="myFunction(this, 'two')" data-furniture="Issue with Side table">
+                        <label for="checked"></label>Issue with Side table</div>
+        </div> 
+        <div class="col-md-3">
+                <div class="furniture1">
+                        <input type="checkbox"  class="checked Sofa" onChange="myFunction(this, 'two')" data-furniture="Issue with Sofa Set">
+                        <label for="checked"></label>Issue with Sofa Set</div>
+        </div> 
+        </div>
+        <div class="row" style="width:100%">
+            <div class="col-sm-6">
+                    <div class="furniture1 " style="margin-top:30px; max-width: 45%; margin-left:50%">
+                            <input type="checkbox"  class="checked Dining" onChange="myFunction(this,'two')" data-furniture="Issue with Dining Table">
+                            <label for="checked"></label>Issue with Dining Table</div>
+            </div>
+            <div class="col-sm-6">
+                    <div class="furniture1" style="margin-top:30px; max-width: 45%;">
+                            <input type="checkbox"  class="checked Kitchen" onChange="myFunction(this,'two')" data-furniture="Issue with Kitchen cabinets">
+                            <label for="checked"></label>Issue with Kitchen cabinets</div>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="service" id="thirdService" style="display: none;">
+                <p class="p1">Please select your type of Issue</p>
+                <div class="row">
+                <div class="col-md-3">
+                        <div class="furniture1" style="width:80%; margin-left:20px;">
+                                <input type="checkbox" class="checked three" onChange="myFunction(this, 'high')" data-furniture="High Priority">
+                                <label for="checked"></label>High Priority</div>
+                        </div>
+                        <div class="col-md-3">
+                                <div class="furniture1" style="width:80%; margin-left:20px;">
+                                 <input type="checkbox" class="checked three" onChange="myFunction(this, 'high')" data-furniture="Fix it Asap">
+                                <label for="checked"></label>Fix it Asap</div>
+                        </div>
+                        <div class="col-md-3">
+                                <div class="furniture1" style="width:80%; margin-left:20px;">
+                                <input type="checkbox" class="checked three" onChange="myFunction(this, 'high')" data-furniture="Not Bothering, but needs to be fixed">
+                                <label for="checked"></label>Not Bothering, but needs to be fixed</div>                  
+                                
+                </div> 
+                
+                    </div>
+                </div>
+
+
+
+                <div id="commentBox" style="display:none; max-width: 65%; margin-left: 15%;">
+                        <input type="input" value="" name="inp"  id="submitvalue" class="text-line" value/>
+                        <button class="btn1" onclick="submitfunction()">submit</button>
+                </div>
+
+        </div>
+        </div> 
+
+
+
+
+
+
+
+
+
+</body>
+</html>

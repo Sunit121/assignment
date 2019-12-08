@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    html, body{
+        font-family: 'Nunito', sans-serif;
+        height: 100%;
+        width: 100%;
+    }
+
+
+.text {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    margin-left: -25px;
+    padding-bottom: 1px;
+}
+.abc{
+    padding:60px;
+}
+.button{
+    /* margin-left: 45px; */
+	border-top:2px solid #d4ecf3;
+	border-left:2px solid #a3ceda;
+	border-right:2px solid #4f6267;
+	border-bottom:2px solid #4f6267;
+	padding:14px 60px;
+	font-size:14px !important;
+	background-color:#d3d3d3;
+	font-weight:bold;
+	color:#2d525d;
+    margin-top: -25px;
+    display: block;
+}
+.p1{
+    font-size:11px;
+    padding-left: 10% !important;
+}
+
+.furniture {
+    background-color:white;
+    border: 2px solid beige;
+    border-radius: 30px;
+    width:100%;
+    color: black;
+    height: 45px; 
+    padding: 6px 8px 0 2px;
+    text-align: center;  
+}
+.furniture::before{
+    max-width: 100%;
+}
+.furniture::after{
+    max-width: 30%;
+}
+
+.checked{
+    margin:6px !important;
+
+}
+#dataToSubmit .p{
+
+    background-color:white;
+    border: 2px solid beige;
+    border-radius: 30px;
+    width:100%;
+    color: black;
+    height: 45px; 
+    padding: 6px 8px 0 2px;
+    text-align: center;  
+}
+
+.furniture1{
+ 
+    background-color:white;
+    border: 2px solid beige;
+    border-radius: 30px;
+    width:95% !important;
+    color: black;
+    height: 45px; 
+    padding: 6px 8px 0 2px;
+    text-align: center;  
+  
+}
+
+
+#dataToSubmit div{
+    display: inline-block;
+}
+
+
+#dataToSubmit span{
+    cursor: pointer;
+}
+
+.text-line{
+
+        background-color: transparent;
+        color:black;
+        outline: none;
+        outline-style: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: solid black 1px;
+        padding: 3px 10px;
+        width:100%;
+}
+.btn1{
+
+    border-top:2px solid #d4ecf3;
+	border-left:2px solid #a3ceda;
+	border-right:2px solid #4f6267;
+	border-bottom:2px solid #4f6267;
+	padding:14px 60px;
+	font-size:14px !important;
+	background-color:#d3d3d3;
+	font-weight:bold;
+	color:#2d525d;
+    margin-top: 30px;
+    display: block;
+    margin-left: 40%;
+}
